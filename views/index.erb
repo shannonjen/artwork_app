@@ -1,0 +1,13 @@
+<h1>Artwork</h1>
+<% @artworks.each do |artwork| %>
+ 		<figure>
+ 			<a href=<%="/artwork/"+artwork.id.to_s%>><img src= <%= artwork.image_url %>></a>
+  		<figcaption><%= artwork.title %></figcaption>
+		</figure>
+<% end %> 
+
+<h2>Artists</h2>
+<% @artists.each do |artist| %>
+ 			<a href=<%="/artist/"+artist.id.to_s%>><%= artist.fname + " " + artist.lname %></a>
+ 			<br>
+<% end %> 

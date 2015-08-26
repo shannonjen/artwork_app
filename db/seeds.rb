@@ -1,0 +1,10 @@
+Artist.create(fname: "Vincent",lname: "van Gogh")
+Artist.create(fname: "Bob",lname: "Ross")
+Artist.create(fname: "Frida",lname: "Kahlo")
+
+Artwork.create(title: "Mountain Retreat", image_url: "https://s-media-cache-ak0.pinimg.com/736x/53/3e/f2/533ef20dfde6bc80494165da04aece58.jpg", artist_id: 2)
+Artwork.create(title: "Bubbling Stream", image_url: "http://www.wallcoo.net/paint/bob_ross_csg/s/bob_ross_csg003_bubbling_streams.jpg", artist_id: 2)
+Artwork.create(title: "The Starry Night", image_url: "http://lh6.ggpht.com/HlgucZ0ylJAfZgusynnUwxNIgIp5htNhShF559x3dRXiuy_UdP3UQVLYW6c=s1200", artist_id: 1)
+Artwork.create(title: "Irises", image_url: "http://lh5.ggpht.com/Go9QucSIS0OASfQar5o3ziLZFJfpbzoEURXvSL2vpu9B8yvvarl7qhrZQKs=s1200", artist_id: 1)
+Artwork.create(title: "Self Portrait With Monkey", image_url: "http://www.albrightknox.org/image/?action=resize&m_w=1040&m_h=1440&path=/uploads/images/collections/Kahlo-Self-Portrait-Monkey.jpg", artist_id: 3)
+Artwork.create(title: "The Wounded Deer", image_url: "http://3.bp.blogspot.com/-_sYLI4-IP9s/T7LjpQ6KVCI/AAAAAAAAAA4/vhuUzgaftPs/s1600/The-Little-Deer.jpg", artist_id: 3)
